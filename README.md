@@ -24,9 +24,10 @@ Este repositorio contiene la documentación correspondiente a la Práctica Final
   	- [Plantilla de seguimiento](#plantilla-de-seguimiento)
   	- [Reporte de avance](#reporte-de-avance)
   	- [Revisiones de terceros](#revisiones-de-terceros)
-  	- [Fabricación](#fabricacion)
-  	- [Calificación](#calificacion)
-  	- [Revisión del docente](#revision-del-docente)
+  	- [Fabricación](#fabricación)
+  	- [Calificación](#calificación)
+  	- [Revisión del docente](#revisión-del-docente)
+  - [Introducción al circuito](#introducción-al-circuito)
 
 <br/>
 
@@ -78,4 +79,33 @@ El docente realizará dos revisiones tanto del esquemático como del PCB:
 - Primera revisión del PCB:
 	- A solicitud del alumno, y luego de la revisión por un tercero (y aplicando las correcciones).
 - Segunda revisión (Calificación): 
-	- Es la última que realiza el docente, y ya aplicando la calificación final. Es importante haber realizado las modificaciones solicitadas por el docente en la primera revisión. Se aconseja evitar las justificaciones del estilo “Así me ha funcionado”, “En otros PCB así quedó bien”,  “Donde yo las fabrico esto sale bien”, “El original estaba así”, “Estoy apurado por terminar”.  Siempre se fundamente cada requisito, y tenga en cuenta que  fines de la práctica, el docente es el “cliente” y ud. debe intentar aplicar las sugerencias realizadas aunque no sean totalmente de su agrado. En caso de no realizar alguno de los cambios sugeridos o pautas solicitadas, justifique adecuadamente y con fundamentos, quedando a criterio del docente el análisis. 
+	- Es la última que realiza el docente, y ya aplicando la calificación final. Es importante haber realizado las modificaciones solicitadas por el docente en la primera revisión. Se aconseja evitar las justificaciones del estilo “Así me ha funcionado”, “En otros PCB así quedó bien”,  “Donde yo las fabrico esto sale bien”, “El original estaba así”, “Estoy apurado por terminar”.  Siempre se fundamente cada requisito, y tenga en cuenta que  fines de la práctica, el docente es el “cliente” y ud. debe intentar aplicar las sugerencias realizadas aunque no sean totalmente de su agrado. En caso de no realizar alguno de los cambios sugeridos o pautas solicitadas, justifique adecuadamente y con fundamentos, quedando a criterio del docente el análisis.
+
+## Introducción al circuito
+Se decidió trabajar replicando un circuito existente extraído de la revista **Saber electrónica Nro. 30.**. Artículo realizado por **Newton C. Braga**
+
+Es una versión transistorizada de una radio AM para las estaciones locales que trabajan con tensiones entre 1,2 y 1,8V.
+
+El esquemático original es el siguiente:
+<br/>
+
+<p align="center">
+  <img height="400px" src="doc/esquematico_original.png">
+  <br/>
+  Figura 1.
+</p>
+
+<br/>
+
+El PCB  original es el siguiente:
+<br/>
+
+<p align="center">
+  <img height="400px" src="doc/pcb_original.png">
+  <br/>
+  Figura 1.
+</p>
+
+<br/>
+
+Para ver en detalle la información del circuito ver el directorio ["doc"](/doc), y para informacíon adicional el directorio ["info"](/info).
