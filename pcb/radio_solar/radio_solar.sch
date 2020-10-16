@@ -384,23 +384,8 @@ Wire Wire Line
 Connection ~ 7200 3400
 Wire Wire Line
 	7200 3400 7200 3800
-$Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5F782A2B
-P 9000 3950
-F 0 "J3" H 9080 3942 50  0000 L CNN
-F 1 "Conn_01x02" H 9080 3851 50  0000 L CNN
-F 2 "" H 9000 3950 50  0001 C CNN
-F 3 "~" H 9000 3950 50  0001 C CNN
-	1    9000 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 2750 8800 2750
-Wire Wire Line
-	8800 2750 8800 3950
-Wire Wire Line
-	8800 4050 8800 4850
 Wire Wire Line
 	8800 4850 8100 4850
 Connection ~ 8100 4850
@@ -428,7 +413,7 @@ F 3 "~" H 3400 3650 50  0001 C CNN
 	1    3400 3650
 	1    0    0    -1  
 $EndComp
-Text Notes 3100 2600 0    129  ~ 0
+Text Notes 3100 2350 0    129  ~ 0
 RADIO  SOLAR
 Text Notes 2450 3800 0    50   ~ 0
 BOBINAS
@@ -436,4 +421,19 @@ Text Notes 8950 3800 0    50   ~ 0
 CELDA SOLAR
 Text Notes 7550 3450 0    50   ~ 0
 TRANSFORMADOR \nPARA PARLANTE
+$Comp
+L Device:Solar_Cell SC1
+U 1 1 5F954CD2
+P 8800 4050
+F 0 "SC1" H 8908 4146 50  0000 L CNN
+F 1 "1V8" H 8908 4055 50  0000 L CNN
+F 2 "" V 8800 4110 50  0001 C CNN
+F 3 "~" V 8800 4110 50  0001 C CNN
+	1    8800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3850 8800 2750
+Wire Wire Line
+	8800 4850 8800 4150
 $EndSCHEMATC
